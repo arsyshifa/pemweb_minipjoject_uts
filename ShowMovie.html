@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <style>
+        :root {
+        --main-color : #6DACA5;
+        --main-color-hover : #EBF7F9;
+        --dark-color : #00202D;
+        --container-width : 1500px;
+        }
+        body {
+            background-image: url("assets/images/1022332.jpg");
+            background-color: #6DACA5;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            text-align: justify;
+            text-justify: auto;
+            margin: 5rem;
+        }
+        .hero-text {
+        text-align: left;
+        color: white;
+        padding: 1rem;
+    }
+        .button {
+        text-decoration: var(--dark-color);
+        display: inline-block;
+        margin-top: 1.3em;
+        padding: 0.7em 1.2em;
+        background-color: var(--main-color-hover);
+        border-radius: 45px;
+        font-size: 1.1em;
+        }
+        .button:hover {
+        background-color: var(--main-color);
+        color: var(--dark-color);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="hero-text">
+    <h1>Silahkan di dengarkan hingga selesai<h1>
+    <audio controls autoplay loop>
+        <source src="assets/audio/Spirited Away 2001 - The Name of Life Instrumental Piano Inochi No Namae.mp3" type="audio/mp3">
+    </audio>
+</div>
+    <a href="miniProject.html" class="button">Kembali</a>
+</body>
+</html>
